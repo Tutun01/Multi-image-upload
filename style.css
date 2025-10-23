@@ -1,0 +1,83 @@
+* {
+      box-sizing: border-box;
+      font-family: "Inter", system-ui, -apple-system, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #e0e7ff, #f9fafb);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .upload-card {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 420px;
+      padding: 2rem;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .upload-card:hover {
+      transform: translateY(-5px);
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      color: #1e293b;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #64748b;
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .file-input {
+      border: 2px dashed #94a3b8;
+      border-radius: 12px;
+      padding: 2rem 1rem;
+      background: #f8fafc;
+      cursor: pointer;
+      transition: border-color 0.3s, background-color 0.3s;
+    }
+
+    .file-input:hover {
+      border-color: #3b82f6;
+      background-color: #eff6ff;
+    }
+
+    input[type="file"] {
+      display: none;
+    }
+
+    label {
+      display: block;
+      color: #334155;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    .btn {
+      margin-top: 1.8rem;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      width: 100%;
+    }
+
+    .btn:hover {
+      background: #2563eb;
+    }
